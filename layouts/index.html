@@ -1,0 +1,51 @@
+{{ define "main" }}
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-quarter">
+                <h1 class="title">
+                    Recent Post
+                </h1>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <p class="title">
+                        “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”
+                    </p>
+                    <p class="subtitle">
+                        Jeff Atwood
+                    </p>
+                    <a href="/post/test/">点击阅读全文</a>
+                </div>
+                <div class="box">
+                    <p class="title">
+                        “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”
+                      </p>
+                      <p class="subtitle">
+                        Jeff Atwood
+                      </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="hero is-fullheight is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Hero title
+        </h1>
+        <h2 class="subtitle">
+          Hero subtitle
+        </h2>
+      </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+{{ end }}
